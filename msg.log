@@ -1,0 +1,14 @@
+2022-06-21 08:47:08,443 DEBUG api request PARAMS: {}
+2022-06-21 08:47:09,584 DEBUG oauth1_auth __call__ Signing request <PreparedRequest [GET]> using client <Client client_key=vbFnWujDREzPbHbmrudJLQ5IT, client_secret=****, resource_owner_key=1535764587215491072-VNFmHe0F5vj8kIPmGNq27ROyz2FzPv, resource_owner_secret=****, signature_method=HMAC-SHA1, signature_type=AUTH_HEADER, callback_uri=None, rsa_key=None, verifier=None, realm=None, encoding=utf-8, decoding=None, nonce=None, timestamp=None>
+2022-06-21 08:47:09,584 DEBUG oauth1_auth __call__ Including body in call to sign: False
+2022-06-21 08:47:09,584 DEBUG __init__ get_oauth_signature Collected params: [('oauth_nonce', '18117957403862687211655801229'), ('oauth_timestamp', '1655801229'), ('oauth_version', '1.0'), ('oauth_signature_method', 'HMAC-SHA1'), ('oauth_consumer_key', 'vbFnWujDREzPbHbmrudJLQ5IT'), ('oauth_token', '1535764587215491072-VNFmHe0F5vj8kIPmGNq27ROyz2FzPv')]
+2022-06-21 08:47:09,584 DEBUG __init__ get_oauth_signature Normalized params: oauth_consumer_key=vbFnWujDREzPbHbmrudJLQ5IT&oauth_nonce=18117957403862687211655801229&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1655801229&oauth_token=1535764587215491072-VNFmHe0F5vj8kIPmGNq27ROyz2FzPv&oauth_version=1.0
+2022-06-21 08:47:09,584 DEBUG __init__ get_oauth_signature Normalized URI: https://api.twitter.com/1.1/account/verify_credentials.json
+2022-06-21 08:47:09,584 DEBUG __init__ get_oauth_signature Signing: signature base string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Faccount%2Fverify_credentials.json&oauth_consumer_key%3DvbFnWujDREzPbHbmrudJLQ5IT%26oauth_nonce%3D18117957403862687211655801229%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1655801229%26oauth_token%3D1535764587215491072-VNFmHe0F5vj8kIPmGNq27ROyz2FzPv%26oauth_version%3D1.0
+2022-06-21 08:47:09,612 DEBUG __init__ get_oauth_signature Signature: EjFnUvfUQB7DfbB3CX+m5cPA1Wo=
+2022-06-21 08:47:09,613 DEBUG oauth1_auth __call__ Updated url: https://api.twitter.com/1.1/account/verify_credentials.json
+2022-06-21 08:47:09,613 DEBUG oauth1_auth __call__ Updated headers: {'User-Agent': 'Python/3.9.1 Requests/2.28.0 Tweepy/4.10.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'OAuth oauth_nonce="18117957403862687211655801229", oauth_timestamp="1655801229", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="vbFnWujDREzPbHbmrudJLQ5IT", oauth_token="1535764587215491072-VNFmHe0F5vj8kIPmGNq27ROyz2FzPv", oauth_signature="EjFnUvfUQB7DfbB3CX%2Bm5cPA1Wo%3D"'}
+2022-06-21 08:47:09,613 DEBUG oauth1_auth __call__ Updated body: None
+2022-06-21 08:47:09,617 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): api.twitter.com:443
+2022-06-21 08:47:12,735 DEBUG connectionpool _make_request https://api.twitter.com:443 "GET /1.1/account/verify_credentials.json HTTP/1.1" 200 564
+2022-06-21 08:47:14,177 INFO main authenticate Authentication Success!
