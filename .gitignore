@@ -1,3 +1,6 @@
 .pytest-cache
 .vscode
 .env
+.vscode/settings.json
+msg.log
+text.txt
