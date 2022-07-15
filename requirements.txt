@@ -6,6 +6,7 @@ charset-normalizer @ file:///C:/Users/lenovo/AppData/Local/pypoetry/Cache/artifa
 click @ file:///C:/Users/lenovo/AppData/Local/pypoetry/Cache/artifacts/9d/ca/2f/bc3cc4a294e96f355d01d24ac6fefdde4c6286f9f63b7ce1c91d5f0c22/click-8.1.3-py3-none-any.whl
 colorama @ file:///C:/Users/lenovo/AppData/Local/pypoetry/Cache/artifacts/28/7e/1b/4d5c7485d20628c199b003e9107afc53d57aea621842a1bc23c31c0da1/colorama-0.4.5-py2.py3-none-any.whl
 Flask @ file:///C:/Users/lenovo/AppData/Local/pypoetry/Cache/artifacts/16/48/91/7c416e93fffb1abddd2314d3ff41f869287765793482d0572adf2ca438/Flask-2.1.3-py3-none-any.whl
+gunicorn @ file:///C:/Users/lenovo/AppData/Local/pypoetry/Cache/artifacts/d4/22/ea/fb991f1fdb4e8ae8fd30e0bce3c23ece991aa75df3f5a4c4f4d5aba6ae/gunicorn-20.1.0-py3-none-any.whl
 idna @ file:///C:/Users/lenovo/AppData/Local/pypoetry/Cache/artifacts/d5/04/80/9c17fd3240a37d12ff2ef042b0306aeb1abd2d8b95f150fd60be938352/idna-3.3-py3-none-any.whl
 importlib-metadata @ file:///C:/Users/lenovo/AppData/Local/pypoetry/Cache/artifacts/f8/0d/7d/ca2de6219731687bee983bc0d41e131dfe5284437d92c69e3a76eea562/importlib_metadata-4.12.0-py3-none-any.whl
 itsdangerous @ file:///C:/Users/lenovo/AppData/Local/pypoetry/Cache/artifacts/b3/40/da/c61f3b68f2a84aab75e63d44ee5e3dd70c23f1915adb75068053148351/itsdangerous-2.1.2-py3-none-any.whl
