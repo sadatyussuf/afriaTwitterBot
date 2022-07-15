@@ -1,6 +1,5 @@
 afriabot==0.1.0
 
-attrs @ file:///C:/Users/lenovo/AppData/Local/pypoetry/Cache/artifacts/5b/25/94/5d165cd3190cb7dfdc98de86c28e8131fc6e19d83a504412664abffec0/attrs-21.4.0-py2.py3-none-any.whl
 certifi @ file:///C:/Users/lenovo/AppData/Local/pypoetry/Cache/artifacts/b0/0d/df/4aa04d9b421fc5f1438b55d4b37516d21ef0ba40158bf7f9dfb28122ca/certifi-2022.6.15-py3-none-any.whl
 charset-normalizer @ file:///C:/Users/lenovo/AppData/Local/pypoetry/Cache/artifacts/2b/25/ee/fa64b49cb44c9c392acf26e69ee8314d3b386932de86a9945f4ad2e633/charset_normalizer-2.0.12-py3-none-any.whl
 click @ file:///C:/Users/lenovo/AppData/Local/pypoetry/Cache/artifacts/9d/ca/2f/bc3cc4a294e96f355d01d24ac6fefdde4c6286f9f63b7ce1c91d5f0c22/click-8.1.3-py3-none-any.whl
