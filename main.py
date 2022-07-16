@@ -123,12 +123,15 @@ def main_flask_app():
 def main():
     if authenticate():
         print('Authentication is True')
-        while True:
-            print('listening to a tweet.....')
-            like_and_retweet_tweet()
+        like_and_retweet_tweet()
+        random_time = random.choice(time_intervals)
+        time.sleep(random_time)
+        # while True:
+        #     print('listening to a tweet.....')
+        #     like_and_retweet_tweet()
 
-            random_time = random.choice(time_intervals)
-            time.sleep(random_time)
+        #     random_time = random.choice(time_intervals)
+        #     time.sleep(random_time)
     return redirect('/')
 
 
