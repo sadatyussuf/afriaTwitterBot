@@ -1,6 +1,5 @@
 import tweepy
 from dotenv import load_dotenv
-from flask import Flask, render_template,  redirect
 
 
 import os
@@ -9,12 +8,11 @@ import time
 from typing import List
 import random
 
-app = Flask(__name__)
 
 
 
 load_dotenv()
-logging.basicConfig(level=logging.DEBUG, filename="msg.log", filemode='w',
+logging.basicConfig(level=logging.DEBUG, filename="settings/msg.log", filemode='w',
                     format='%(asctime)s %(levelname)s %(module)s %(funcName)s %(message)s')
 
 CONSUMER_KEY = os.environ.get("CONSUMER_KEY")
@@ -53,7 +51,7 @@ def getUserID(users:List):
 users = ['yussufSadat']
 
 # fileName
-FILE_NAME = 'last.txt'
+FILE_NAME = 'settings/last.txt'
 
 def read_last_seen(FILE_NAME):
     # print('reading file...')
@@ -115,27 +113,21 @@ def retweet_tweet():
 
 time_intervals = [5,15,25]
 
-@app.route('/')
-def main_flask_app():
-    return render_template('index.html')
 
-@app.route('/tweet')
 def main():
     if authenticate():
         print('Authentication is True')
-        like_and_retweet_tweet()
-        random_time = random.choice(time_intervals)
-        time.sleep(random_time)
-        # while True:
-        #     print('listening to a tweet.....')
-        #     like_and_retweet_tweet()
+        # like_and_retweet_tweet()
+        # random_time = random.choice(time_intervals)
+        # time.sleep(random_time)
+        while True:
+            print('listening to a tweet.....')
+            like_and_retweet_tweet()
 
-        #     random_time = random.choice(time_intervals)
-        #     time.sleep(random_time)
-    return redirect('/')
+            random_time = random.choice(time_intervals)
+            time.sleep(random_time)
 
 
-# main()
+
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port, debug=True)
+    main()
