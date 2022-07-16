@@ -111,7 +111,7 @@ def retweet_tweet():
         api.retweet(id)
         print('Retweeted!!')
 
-time_intervals = [5,15,25]
+time_intervals = [15,25,35,45,55]
 
 
 def main():
