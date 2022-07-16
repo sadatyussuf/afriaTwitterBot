@@ -48,7 +48,7 @@ def getUserID(users:List):
     return users_id[0]
 
 # users = ['yussufSadat','ing_tagoe,'pythontrending']
-users = ['yussufSadat']
+users = ['Afria_Inc']
 
 # fileName
 FILE_NAME = 'settings/last.txt'
